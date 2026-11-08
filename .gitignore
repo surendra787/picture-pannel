@@ -1,0 +1,38 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+
+# Local uploaded files
+backend/storage/
+storage/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+frontend/dist/
+build/
+
+# Vercel
+.vercel/
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
